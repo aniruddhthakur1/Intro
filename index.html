@@ -1,0 +1,143 @@
+12.04 8:49 PM
+Index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="Aniruddh thakur" content="width=device-width, initial-scale=1.0" />
+  <title>Aniruddh Thakur - Introduction</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      opacity: 0;
+      animation: fadeIn 1.2s forwards;
+    }
+
+    /* Fade In */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* Slide Up */
+    @keyframes slideUp {
+      from { transform: translateY(40px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    /* Pop In */
+    @keyframes popIn {
+      0% { transform: scale(0.6); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      animation: slideUp 1.2s ease-out;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      animation: slideUp 1.3s ease-out;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      animation: popIn 0.8s;
+    }
+
+    h2 {
+      margin-top: 0;
+      animation: slideUp 1.4s;
+    }
+
+    .section {
+      margin-bottom: 30px;
+      animation: slideUp 1.6s;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #fff;
+      margin-top: 40px;
+      animation: fadeIn 2s;
+    }
+
+    /* Image animation */
+    .profile-pic {
+      margin-top: 20px;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      animation: popIn 1s ease-out;
+    }
+
+    /* Hover animation on social links */
+    a:hover {
+      color: #e60073;
+      transition: 0.3s;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aniruddh Thakur</h1>
+    <p>Student • Creator • Learner</p>
+    <img src="your-image.jpg" alt="Profile Photo" class="profile-pic" />
+  </header>
+
+  <div class="container">
+    <div class="section">
+      <h2>About Me</h2>
+      <p>
+        Hi, I’m Aniruddh Thakur. I’m a student who loves learning new things, creating digital content, and exploring technology. I enjoy working on creative projects, editing, and building ideas that stand out.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Video & Photo Editing</li>
+        <li>Creative Writing & Captions</li>
+        <li>Basic Web Projects</li>
+        <li>Content Ideas & Concepts</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Contact</h2>
+      <p>You can reach me through my social media or any platform where I’m active. Always open to feedback and collaboration!</p>
+    </div>
+
+    <div class="section">
+      <h2>Social Links</h2>
+      <p>
+        <a href="https://www.instagram.com/i_am_aniruddh_thakur?igsh=MWpodTk3c3JqYTZqbQ==" target="_blank"><i class="fab fa-instagram" style="font-size:22px;margin-right:8px;"></i>Instagram</a><br>
+        <a href="https://youtube.com/@anirudh_sengar?si=7Vd7pUyl_hU7COtL" target="_blank"><i class="fab fa-youtube" style="font-size:22px;margin-right:8px;"></i>YouTube</a>
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Aniruddh Thakur. All rights reserved.
+  </footer>
+</body>
+</html>
